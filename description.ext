@@ -1,0 +1,19 @@
+disabledAI = true;
+respawn = BASE;
+respawnTemplates[] = {"MenuInventory","MenuPosition"};
+respawndelay = 5;
+author = "PMC-Tyler";
+OnLoadName = "Tanoa Zeus";
+OnLoadMission = "CO-OP Zeus Testing on Tanoa";
+debriefing = 0;
+class Header
+{
+gameType = Coop;
+minPlayers = 1;
+maxPlayers = 60;
+};
+
+class CfgFunctions
+{
+#include "scripts\PMCT_Functions.hpp"
+};
