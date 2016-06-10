@@ -17,3 +17,83 @@ class CfgFunctions
 {
 #include "scripts\PMCT_Functions.hpp"
 };
+class CfgRespawnInventory
+{
+	class WEST1
+	{
+		displayName = "Team Leader";
+		
+		weapons[] = {
+			"Laserdesignator",
+			"arifle_Katiba_GL_F"
+		};
+		magazines[] = {
+			"30Rnd_65x39_caseless_green",
+			"30Rnd_65x39_caseless_green",
+			"30Rnd_65x39_caseless_green",
+			"30Rnd_65x39_caseless_green",
+			"30Rnd_65x39_caseless_green",
+			"30Rnd_65x39_caseless_green",
+			"smokeShell",
+			"laserbatteries"
+		};
+		items[] = {
+			"ACE_fieldDressing",
+			"ACE_morphine",
+			"ACE_MapTools"
+		};
+		linkedItems[] = {
+			"acc_pointer_IR",
+			"optic_Hamr",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"tf_anprc152"
+		};
+		uniformClass = "TFA_mcam_F";
+		backpack = "TFA_511_MCAM";
+	}
+	class WEST2
+	{
+		displayName = "Combat Life Saver";
+		
+		weapons[] = {
+			"Laserdesignator",
+			"arifle_Katiba_GL_F"
+		};
+		magazines[] = {
+			"30Rnd_65x39_caseless_green",
+			"30Rnd_65x39_caseless_green",
+			"30Rnd_65x39_caseless_green",
+			"30Rnd_65x39_caseless_green",
+			"30Rnd_65x39_caseless_green",
+			"30Rnd_65x39_caseless_green",
+			"smokeShell",
+			"laserbatteries"
+		};
+		items[] = {
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_fieldDressing",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_morphine",
+			"ACE_MapTools"
+		};
+		linkedItems[] = {
+			"acc_pointer_IR",
+			"optic_Hamr",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"tf_anprc152"
+		};
+		uniformClass = "TFA_mcam_F";
+		backpack = "TFA_511_MCAM";
+	}
+}
+			
