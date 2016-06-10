@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=234;
+		nextID=235;
 	};
 	class Camera
 	{
-		pos[]={11816.018,23.553463,13136.256};
-		dir[]={-0.92694634,-0.34857318,-0.1394974};
-		up[]={-0.34477967,0.9372341,-0.051887508};
-		aside[]={-0.14883325,4.9447408e-007,0.9889518};
+		pos[]={10762.755,318.06409,11620.814};
+		dir[]={-0.92841899,-0.34967822,-0.12636846};
+		up[]={-0.34658405,0.93681777,-0.047175623};
+		aside[]={-0.13488409,-3.1373202e-007,0.99095857};
 	};
 };
 binarizationWanted=0;
@@ -39,6 +39,7 @@ addons[]=
 	"ace_medical_menu",
 	"A3_Modules_F_Curator_Curator",
 	"A3_Characters_F",
+	"asr_ai3_main",
 	"task_force_radio_items",
 	"A3_Modules_F_Multiplayer",
 	"A3_Data_F_Curator_Virtual",
@@ -71,7 +72,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=42;
+		items=43;
 		class Item0
 		{
 			className="ace_advanced_ballistics";
@@ -168,146 +169,151 @@ class AddonsMetaData
 		};
 		class Item18
 		{
+			className="asr_ai3_main";
+			name="asr_ai3_main";
+		};
+		class Item19
+		{
 			className="task_force_radio_items";
 			name="task_force_radio_items";
 		};
-		class Item19
+		class Item20
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item20
+		class Item21
 		{
 			className="A3_Data_F_Curator";
 			name="Arma 3 Zeus Update - Main Configuration";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item21
+		class Item22
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item22
+		class Item23
 		{
 			className="ace_cargo";
 			name="ace_cargo";
 		};
-		class Item23
+		class Item24
 		{
 			className="mas_UH60M";
 			name="mas_UH60M";
 			author="massi & authors in credits";
 		};
-		class Item24
+		class Item25
 		{
 			className="mas_UH1Y";
 			name="mas_UH1Y";
 			author="massi & authors in credits";
 		};
-		class Item25
+		class Item26
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item26
+		class Item27
 		{
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item27
+		class Item28
 		{
 			className="mas_veh_F_35C";
 			name="mas_veh_F_35C";
 			author="massi & authors in credits";
 		};
-		class Item28
+		class Item29
 		{
 			className="mas_HMMWV";
 			name="mas_HMMWV";
 			author="massi & authors in credits";
 		};
-		class Item29
+		class Item30
 		{
 			className="A3_Soft_F";
 			name="Arma 3 Alpha - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item30
+		class Item31
 		{
 			className="ace_realisticnames";
 			name="ace_realisticnames";
 		};
-		class Item31
+		class Item32
 		{
 			className="A3_Armor_F_Beta";
 			name="Arma 3 Beta - Armored Land Vehicles";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item32
+		class Item33
 		{
 			className="A3_Air_F";
 			name="Arma 3 Alpha - Aircrafts";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item33
+		class Item34
 		{
 			className="A3_Structures_F_Wrecks";
 			name="Arma 3 - Vehicle Wrecks";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item34
+		class Item35
 		{
 			className="ace_interaction";
 			name="ace_interaction";
 		};
-		class Item35
+		class Item36
 		{
 			className="ace_winddeflection";
 			name="ace_winddeflection";
 		};
-		class Item36
+		class Item37
 		{
 			className="ace_sitting";
 			name="ace_sitting";
 		};
-		class Item37
+		class Item38
 		{
 			className="ace_microdagr";
 			name="ace_microdagr";
 		};
-		class Item38
+		class Item39
 		{
 			className="ace_zeus";
 			name="ace_zeus";
 		};
-		class Item39
+		class Item40
 		{
 			className="A3_Soft_F_Gamma";
 			name="Arma 3 - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item40
+		class Item41
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item41
+		class Item42
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
@@ -319,7 +325,34 @@ class AddonsMetaData
 randomSeed=6052913;
 class ScenarioData
 {
-	author="Tyler";
+	author="PMC-Tyler";
+};
+class CustomAttributes
+{
+	class Category0
+	{
+		name="Scenario";
+		class Attribute0
+		{
+			property="EnableDebugConsole";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=1;
+				};
+			};
+		};
+		nAttributes=1;
+	};
 };
 class Mission
 {
@@ -345,7 +378,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=142;
+		items=143;
 		class Item0
 		{
 			dataType="Logic";
@@ -5454,13 +5487,14 @@ class Mission
 				angles[]={0,5.0640726,6.2823472};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this allowdamage false; [this,1] call PMCT_fnc_cargoLoad;";
 			};
 			id=167;
 			type="B_supplyCrate_F";
-			atlOffset=0.25000048;
+			atlOffset=0.11402464;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8720,6 +8754,45 @@ class Mission
 			};
 			id=233;
 			type="Land_Sun_chair_green_F";
+		};
+		class Item142
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10749.378,307.44675,11619.17};
+				angles[]={6.2431998,4.5143466,6.2618575};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=234;
+			type="ACE_IEDLandBig_Range";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 	class Connections
